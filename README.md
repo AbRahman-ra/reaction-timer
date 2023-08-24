@@ -5,9 +5,7 @@
 
 ---
 
-## Deployed Webpage
-
-Soon...
+## [Deployed Webpage](https://abrahman-ra.github.io/reaction-timer/)
 
 ---
 
@@ -18,4 +16,4 @@ Reaction Timer is a small, easy & funny game, to start: click on the
 block appears (Note that the block will show up in a random place on the
 screen 😈), after the block appears, a new timer will start counting the
 time needed to press the appeared block again, based on your reflex speed,
-you will be given a rank
+you will be given a rank.
