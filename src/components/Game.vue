@@ -20,11 +20,11 @@ export default defineComponent({
   },
   mounted() {
     setTimeout(() => {
-      this.top = 100 * Math.random();
-      this.left = 100 * Math.random();
+      this.top = 20 + 60 * Math.random();
+      this.left = 20 + 60 * Math.random();
       let gameBlock = this.$refs.game as HTMLDivElement;
-      gameBlock.style.top = `${this.top}%`;
-      gameBlock.style.left = `${this.left}%`;
+      gameBlock.style.top = `${this.top}vh`;
+      gameBlock.style.left = `${this.left}vw`;
       this.showGame = true;
       this.startTimer();
       console.log("Game Started");
